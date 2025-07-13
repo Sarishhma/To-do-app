@@ -36,3 +36,53 @@
     transform: rotate(360deg);
   }
 }
+.heading {
+  text-align: center;
+  color: #61dafb;
+  margin-top: 20px;
+  font-size: 1rem;
+}
+.todo-item {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+    background-color: #ece8e8;
+    border-radius: 15px;
+ 
+}
+.todo-item:hover {
+  background-color: rgb(231, 174, 174);
+  transition: calc(0.5s);
+ transform: scale(1.05);
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+.todo-item p{
+  font-size: 1rem;
+  color: #333;
+   width: 550px;
+   color: #d00e0e;
+   
+ 
+
+}
+.todo-list{
+  margin: 0 auto;
+  margin-top: 10px;
+  justify-content: center;
+  display:flex;
+  align-items: center;
+  flex-direction: column;
+ background-color: antiquewhite;
+ width: 750px;
+box-shadow: 2px 2px 3px 5px orange;
+}
+.todo-item .btn{
+  background-color: rgb(241, 118, 73);
+}
+.todo-item .btn:hover{
+  background-color: rgb(241, 118, 73);
+  color: white;
+  
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
